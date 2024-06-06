@@ -1,0 +1,84 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/contact/Contact.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.Contact_container__RDvSU {
+  display: flex;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.Contact_contactInfo__vpFd_ {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.Contact_infoBox__gvMMJ {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Contact_infoBox__gvMMJ .Contact_icon__76d7n {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.Contact_infoBox__gvMMJ span {
+  font-size: 18px;
+}
+
+.Contact_contactForm__zT0qq {
+  flex: 2;
+  padding: 20px;
+}
+
+.Contact_inputBox__qhQpz {
+  margin-bottom: 20px;
+}
+
+.Contact_inputBox__qhQpz label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.Contact_inputBox__qhQpz input,
+.Contact_inputBox__qhQpz textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Contact_inputBox__qhQpz textarea {
+  resize: none;
+  height: 100px;
+}
+
+.Contact_submitBox__bVdnu {
+  text-align: right;
+}
+
+.Contact_submitBox__bVdnu button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.Contact_submitBox__bVdnu button:hover {
+  background-color: #555;
+}
+
