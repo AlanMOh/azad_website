@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.contactInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.infoBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.infoBox .icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.infoBox span {
+  font-size: 18px;
+}
+
+.contactForm {
+  flex: 2;
+  padding: 20px;
+}
+
+.inputBox {
+  margin-bottom: 20px;
+}
+
+.inputBox label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.inputBox input,
+.inputBox textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.inputBox textarea {
+  resize: none;
+  height: 100px;
+}
+
+.submitBox {
+  text-align: right;
+}
+
+.submitBox button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submitBox button:hover {
+  background-color: #555;
+}
